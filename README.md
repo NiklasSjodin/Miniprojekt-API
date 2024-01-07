@@ -14,6 +14,17 @@
 - [ ] Retrieve all individuals in the system.
 - [ ] Retrieve interests and links associated with a specific person.
 - [ ] Connect a person to a new interest and add new links.
+## GET Requests
+- "/persons" - Get all persons in the db.
+- "/person/{personId}" - Get all the information about a specific person.
+- "person/{personId}/interests" - Get all the specifik persons interests
+- "person/{personId}/interests/url - Get all the connected links from the person
+
+## POST Requests
+- "/person" - Add a new person to the db.
+- "/person/interest" - Add a new interest to the db.
+- "/person/{personId}/interest/{interestId}" - Connect a person to an interest
+- "person/{personId}/interest/{interestId}/url" - Add a new link to a specific person and interest.
 
 ## Class diagram
 ![Skärmbild 2024-01-07 104434](https://github.com/NiklasSjodin/Miniprojekt-API/assets/146171251/3ae58c04-922d-4c4d-9a20-37c9160df539)
