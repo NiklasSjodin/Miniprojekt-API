@@ -1,3 +1,5 @@
+![OIG3 v1uHAL3A](https://github.com/NiklasSjodin/Miniprojekt-API/assets/146171251/15b0ed0e-811d-4302-b069-e61d3ef0b865)
+
 # Mini Project API
 
 ## Application
